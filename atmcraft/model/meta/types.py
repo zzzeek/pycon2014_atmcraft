@@ -58,7 +58,7 @@ class GUID(TypeDecorator):
 
     .. seealso::
 
-        http://docs.sqlalchemy.org/en/latest/core/types.html#backend-agnostic-guid-type
+        http://docs.sqlalchemy.org/en/latest/core/custom_types.html#backend-agnostic-guid-type
 
     """
     impl = CHAR
